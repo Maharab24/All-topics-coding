@@ -1,2 +1,2 @@
-  for(auto u : a)
-    cout<<u.first<<" "<<u.second<<endl;
+for(auto u : f2)
+    // cout<<u.first<<" "<<u.second<<endl;

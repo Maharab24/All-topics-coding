@@ -31,22 +31,7 @@ int main()
 
     /*Select 1st 2 activities*/
 
-    vector<pair<int,int>> f2;
 
-  f2.push_back(a[0]);
-
-  int x=0;
-
-    for(int i=1 ; i<n ; i++)
-    {
-
-        if(a[i].first>=f2[x].second)
-        {
-           f2.push_back(a[i]);
-           x++ ;
-        }
-
-    }
 
     cout<<"Print all valid activiy"<<endl;
 
@@ -89,7 +74,7 @@ int main()
         }
    }
 
-   cout<<"Short duration "<<index<<endl; 
+   cout<<"Short duration "<<index<<endl;
 
 
 
